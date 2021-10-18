@@ -99,9 +99,7 @@ big {
 	font-size: 125%;
 }
 
-/*--------------------------------------------------------------
-Layout
---------------------------------------------------------------*/
+
 body {
     margin: 0;
     padding: 0;
@@ -120,7 +118,7 @@ body {
 .intro {
     padding: 2em 2em;
     color: #ffffff;
-    background: #429890;
+    background: lightblue;
 }
 
 
@@ -136,7 +134,7 @@ body {
 }
 
 .test-wrapper {
-    border: 10px solid grey;
+    border: 10px solid black;
     border-radius: 10px;
 }
 
@@ -176,12 +174,12 @@ body {
     padding: .5em 1em;
     font-size: 1.2em;
     font-weight: bold;
-    color: #E95D0F;
+    color:darkred;
     background: white ;
-    border: 10px solid #E95D0F;
+    border: 10px solid red;
 }
 
 #reset:hover {
     color: white;
-    background-color: #E95D0F;
+    background-color: red;
 }

@@ -39,9 +39,9 @@ function spellCheck() {
         testWrapper.style.borderColor = "#429890";
     } else {
         if (textEntered == originTextMatch) {
-            testWrapper.style.borderColor = "#65CCf3";
+            testWrapper.style.borderColor = "green";
         } else {
-            testWrapper.style.borderColor = "#E95D0F";
+            testWrapper.style.borderColor = "yellow";
         }
     }
 
